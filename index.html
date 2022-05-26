@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index.html</title>
+</head>
+    <body>
+
+        <!-- Ejercicios -->
+        <script>
+        // imprime por consola el numero de caracteres de mi variable name
+        var name = 'Hola Mundo';
+        console.log('Hola Mundo tiene ' + name.length + ' caracteres');
+        
+        //Imprime por consola una cadena mas el valor de la variable name
+        function sayHello1(name = 'World') {
+        console.log('Hello ' + name);
+        }
+        sayHello1()
+
+        // Imprime por consola el numero de caracteres 
+        // DEFINE
+        function f(name="Hola Mundo") {
+        console.log('Hola Mundo tiene ' + name.length + ' caracteres')
+        }
+        // EJECUTA
+        f()
+
+        // numero de caracteres
+        // DEFINE
+        function sayHello(name='hola') {
+        console.log('El nombre tiene ' + name.length + ' caracteres')
+        }
+        // EJECUTA
+        sayHello('Antonio')
+
+
+        // suma de 2 numeros
+        //DEFINE
+        function suma(a,b){
+            console.log(a+b);
+        }
+        //EJECUTA
+        suma(3,100)
+
+        // nombre y apellidos
+        //DEFINE
+        function f2(nombre='Paco', apellidos='Vera'){
+
+            console.log('Mi nombre es '+ nombre + ' '+ apellidos)
+        }
+        //EJECUTA
+        f2('Antonio', 'Rodriguez')
+        //EJECUTA
+        f2()
+        </script>
+    </body>
+</html>
